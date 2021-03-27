@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import icon from '../../assets/Vector.svg';
+import icon from '../../assets/Search-Icon.svg';
 
 
 export const Wrapper = styled.div`
