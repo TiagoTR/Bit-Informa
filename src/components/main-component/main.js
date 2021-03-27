@@ -9,6 +9,7 @@ import ArrowDown from '../../assets/Arrow-Down.svg';
 import CashIcon from '../../assets/Cash-Icon.svg';
 import SaleIcon1 from '../../assets/Sale-Icon-1.svg';
 import SaleIcon2 from '../../assets/Sale-Icon-2.svg';
+import ImageTop from '../../assets/Image-Top.svg';
 import ImageBottom from '../../assets/Image-Bottom.svg';
 import StateContext from '../context';
 
@@ -56,7 +57,7 @@ export default function Main() {
         WBX: 'WiBX',
         XRP: 'XRP',
     });
-    const [date, setDate] = useState({
+    const [date] = useState({
         day: new Date().getDate() - 1,
         month: new Date().getMonth() + 1,
         year: new Date().getFullYear()
@@ -99,6 +100,8 @@ export default function Main() {
 
     return(
         <>
+            <Styles.ImageTop src={ ImageTop } alt='image-top' />
+
             <Styles.CardsWrapper>
                 <Styles.Card width='350px' marginRight='45px'>
                     <Styles.TopCard>
@@ -154,7 +157,8 @@ export default function Main() {
                     </Styles.InfoCard>
                 </Styles.Card>
             </Styles.CardsWrapper>
-            <Styles.ImageBottom src={ ImageBottom } alt='xxx'/>
+
+            <Styles.ImageBottom src={ ImageBottom } alt='image-bottom' />
         </>
     );
 };

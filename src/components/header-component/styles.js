@@ -10,6 +10,8 @@ export const Wrapper = styled.div`
 
 export const Logo = styled.img`
     margin-left: 40px;
+
+    @media(max-width: 560px) {width: 20%;}
 `;
 
 export const InputWrapper = styled.div`
@@ -30,9 +32,21 @@ export const Input = styled.input`
     height: 50px;
     border-radius: 10px 0 0 10px;
     border: none;
-    padding: 0 20px;
+    padding: 0 10px;
     font-size: 25px;
     background: #F4F1F1;
+
+    @media(max-width: 790px) {
+        width: 300px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    @media(max-width: 560px) {
+        width: 200px;
+        height: 30px;
+        font-size: 10px;
+    }
 `;
 
 export const IconSearch = styled.img`
@@ -40,4 +54,10 @@ export const IconSearch = styled.img`
     padding: 9px;
     border-radius: 0 10px 10px 0;
     background: #F4F1F1;
+
+    @media(max-width: 790px) {padding: 4px;}
+
+    @media(max-width: 560px) {
+        height: 30px;
+    }
 `;
