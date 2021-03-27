@@ -33,6 +33,7 @@ export const Icon = styled.img`
 export const TitleCoin = styled.span`
     font-size: 20px;
     font-weight: bold;
+    width: 211px;;
 `;
 
 export const ValueCard = styled.p`
@@ -64,7 +65,8 @@ export const Text = styled.p`
 `;
 
 export const TextTime = styled.p`
-    width: 84%;
+    width: 70%;
+    max-width: 70%;
     text-align: right;
     vertical-align: bottom;
     margin-top: 15px;
