@@ -154,7 +154,7 @@ export default function Main() {
                     </Styles.InfoCard>
                 </Styles.Card>
             </Styles.CardsWrapper>
-            <img src={ ImageBottom } alt='xxx'/>
+            <Styles.ImageBottom src={ ImageBottom } alt='xxx'/>
         </>
     );
 };

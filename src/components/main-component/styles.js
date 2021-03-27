@@ -91,3 +91,9 @@ export const ValueInfo = styled.p`
     color: #E4A22B;
     font-weight: 600;
 `;
+
+export const ImageBottom = styled.img`
+    position: absolute;
+    margin-top: -40px;
+    z-index: -1;
+`;
