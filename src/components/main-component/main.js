@@ -92,7 +92,9 @@ export default function Main() {
                     vol: '',
                     last: '',
                     sell: '',
-                    buy: ''
+                    buy: '',
+                    price: '',
+                    quantity: ''
                 });
             }
         })();
