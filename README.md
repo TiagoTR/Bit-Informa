@@ -28,7 +28,7 @@ Landing page where updated data is displayed in real time on most popular crypto
 
 <hr>
 
-## :heavy_check_mark: Screenshot 1
+## :heavy_check_mark: Screenshot 
 <div align="center">
     <img src="./assets-readme/screenshot-desktop.png"/>
 </div>
